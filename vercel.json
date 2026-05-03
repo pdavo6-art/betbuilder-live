@@ -1,6 +1,6 @@
 {
-      "rewrites": [
-              { "source": "/api/fixtures", "destination": "/api/index.js" },
-              { "source": "/(.*)", "destination": "/public/index.html" }
-      ]
+        "outputDirectory": "public",
+        "rewrites": [
+                  { "source": "/api/fixtures", "destination": "/api/index.js" }
+        ]
 }
